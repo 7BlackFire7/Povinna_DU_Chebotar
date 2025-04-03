@@ -42,7 +42,7 @@
         </div>  
         <?php
         require_once 'includes/QnA.php';
-
+      //connect to database
         $qna = new QnA('localhost', 'mydatabase', 'root', '');
         $questions = $qna->getQnA();
         ?>
